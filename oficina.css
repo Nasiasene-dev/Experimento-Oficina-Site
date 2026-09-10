@@ -1,7 +1,19 @@
- 
-#titulo {background-color:blue; padding:30px; text-align:center;} #menu {background-color:black; color:aliceblue;} 
-    div {margin:5%} p {margin:3%; background-color:#acadadce; font-size:20px;} h3 {background-color:blue;}
+ #titulo {background-color:blue; padding:30px; text-align:center;} 
+ #menu {background-color:black; color:aliceblue; display:flex; 
+    justify-content:space-between; padding-left:10%; padding-right:10%;} 
+    #menu button {background-color:transparent; color:aliceblue; border:None;
+        padding:15px 25px; font-size:16px; font-weight:bold; transition:0.3s; cursor:pointer;} #menu button:hover { background-color:blue;}
     body {background-color:lightgray; font-family:arial,sans-serif;} 
-    .suspensao {background-color:rgb(113, 113, 253);
-                 padding:10px; margin:5px; font-family:arial,sans-serif; display:flex; flex-direction:row;
-                  align-items:flex-start}
+       /* div {margin:2%} p {margin:2%; background-color:#acadadce; font-size:20px;} h3 {background-color:blue;} */
+    .categoria {
+                 padding:2px; margin:3px; font-family:arial,sans-serif; display:flex; flex-direction:column;
+                  align-items:center; flex:1; border:solid 2px black; border-radius:10px;} .categoria h3 { margin:0;background-color:rgb(74, 74, 255); text-align:center; width:100%;}
+                  #servicos {background-color:lightgray; padding:2px; margin:3px; 
+                    font-family:arial,sans-serif; display:flex; flex-direction:row;
+                  align-items:stretch; gap:50px;}
+                  #Final {background-color:blue; padding:15px; margin:5px; 
+                font-family:arial,sans-serif;}
+                #loc {font-size:12px;}
+                .conteudo {background-color:rgb(231, 230, 235); margin:0px; text-align:center; font-family:arial,sans-serif; display:flex; flex-direction:column;
+                  align-items:center; gap:10px; width:100%; flex: 1;}
+                 #endereco {display:flex;}
