@@ -1,4 +1,7 @@
  
 #titulo {background-color:blue; padding:30px; text-align:center;} #menu {background-color:black; color:aliceblue;} 
     div {margin:5%} p {margin:3%; background-color:#acadadce; font-size:20px;} h3 {background-color:blue;}
-    body {background-color:lightgray; font-family:arial,sans-serif;
+    body {background-color:lightgray; font-family:arial,sans-serif;} 
+    .suspensao {background-color:rgb(113, 113, 253);
+                 padding:10px; margin:5px; font-family:arial,sans-serif; display:flex; flex-direction:row;
+                  align-items:flex-start}
