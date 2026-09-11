@@ -1,4 +1,4 @@
- #titulo {background-color:blue; padding:30px; text-align:center;} 
+ #titulo {background-color:blue; padding:30px; text-align:center; box-shadow:inset 0px 0px 70px black;} 
  #menu {background-color:black; color:aliceblue; display:flex; 
     justify-content:space-between; padding-left:10%; padding-right:10%;} 
     #menu button {background-color:transparent; color:aliceblue; border:None;
@@ -12,10 +12,11 @@
                     font-family:arial,sans-serif; display:flex; flex-direction:row;
                   align-items:stretch; gap:50px;}
                   #Final {background-color:blue; padding:15px; margin:5px; 
-                font-family:arial,sans-serif;}
+                font-family:arial,sans-serif; border-radius:15px ; color:black; font-size:small; text-align:start; 
+              width:97%; box-shadow: inset 0px 0px 30px  black;}
                 #loc {font-size:12px;}
                 .conteudo {background-color:rgb(231, 230, 235); margin:0px; text-align:center; font-family:arial,sans-serif; display:flex; flex-direction:column;
                   align-items:center; gap:10px; width:100%; flex: 1;}
                   @media (max-width:600px)
                   { #servicos {flex-direction:column;} 
-                   #menu {padding-left:0; padding-right:0;}}
+                   #menu {padding-left:0; padding-right:0;} #menu button {padding:10px 14px;}}
